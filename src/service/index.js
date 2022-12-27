@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'https://backend-event-app.adaptable.app/'
+const url = 'https://backend-event-app.adaptable.app'
 
 export function getGuests() {
     return new Promise(resolve => {
