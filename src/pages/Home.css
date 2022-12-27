@@ -1,0 +1,177 @@
+.d1 {
+    min-height: 100vh;
+}
+
+.d1 h1, h5{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.d1 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 5px;
+}
+
+.error-input {
+    border-color: red !important;
+    box-shadow: 0 0 0 3px rgb(255, 175, 175) !important;
+}
+
+@media (min-width: 1024px) {
+    .d1 img {
+        margin: auto auto 5px auto;
+        max-height: 100vh;
+    }
+    .carte-btn {
+        width: 560px;
+    }
+    .carte {
+        align-items: center;
+    }
+    #searchBar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .buttongroup {
+        order: 2;
+    }
+}
+
+.buttongroup {
+    text-align: end;
+}
+@media (max-width: 480px){
+.text-sm {
+    font-size: small;
+}
+}
+
+.carte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carte-btn {
+    text-decoration: none;
+    text-align: center;
+    border: solid;
+    border-width: 2px;
+    color: black;
+    background-color:white;
+    opacity: 0.6;
+    border-color: white;
+    margin: 0 5px 5px 5px;
+    transition-duration: 0.2s;
+    line-height: 40px;
+    height: 40px;
+}
+
+.carte-btn img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.carte-btn:hover {
+    opacity: 1;
+    color: black;
+}
+
+#image {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    padding: 5px;
+}
+
+#header {
+    background-image: url('../images/header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countdown {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    opacity: 0.6;
+}
+
+#wedding {
+    background-image: url('../images/wedding.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: silver;
+    text-align: center;
+}
+
+#invitation {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    opacity: 0.6;
+    font-family: "Lucida Handwriting";
+}
+
+#answer {
+    background-image: url('../images/letter.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#form {
+    padding: 5%;
+}
+
+.tel {
+    max-width: 300px;
+}
+
+.numOfGuests {
+    max-width: 75px;
+}
+
+#info {
+    margin-top: 5px;
+    font-size: small;
+}
+
+body.modal-open > :not(.modal) {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.span-edit {
+    background-image: url('../images/editer.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+
+.span-delete {
+    background-image: url('../images/supprimer.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    width: 20px;
+    height: 20px;
+}
